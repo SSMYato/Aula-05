@@ -1,0 +1,57 @@
+#segundoTitulo {
+  border: 2px solid #bd3636;
+}
+
+.tituloCor {
+  color: dodgerblue;
+}
+
+div#static {
+  border: 1px solid red;
+  height: 50px;
+  width: 50px;
+  right: 100px;
+}
+
+div#relative {
+  border: 1px solid red;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  right: 50px;
+  bottom: 100px;
+}
+
+div#fixed {
+    background-color: black;
+    border: 1px solid red;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100vh;
+}
+
+div#sticky {
+    position: sticky;
+    bottom: 0;
+    background-color: aqua;
+    height: 20px;
+}
+
+div#pai {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+div#filho {
+    border: 1px solid blue;
+    height: 20px;
+    width: 20px;
+    left: 100px;
+    position: absolute;
+    right: 0;
+}
