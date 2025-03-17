@@ -44,7 +44,7 @@ div#pai {
     border: 1px solid red;
     height: 50px;
     width: 50px;
-    position: absolute;
+    position: relative;
 }
 
 div#filho {
@@ -54,4 +54,5 @@ div#filho {
     left: 100px;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
